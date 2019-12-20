@@ -15,6 +15,7 @@ namespace linear_math {
 
 		Vector() { cords.fill(0); }
 
+
 		Vector(const Vector& copy) : cords{ copy.cords } {}
 
 		Vector(Vector&& move) noexcept {
