@@ -1,8 +1,8 @@
 #ifndef LINEAR_MATH
 #define LINEAR_MATH
-#include "Vector.h"
+#include<array>
+#include"Vector.h"
 namespace linear_math {
-
 
 
 }
