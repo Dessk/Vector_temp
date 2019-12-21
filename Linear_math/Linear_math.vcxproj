@@ -126,8 +126,6 @@
     <ClCompile Include="Testing_b.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="linear_math.h" />
-    <ClInclude Include="Matrix.h" />
     <ClInclude Include="Vector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
