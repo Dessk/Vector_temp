@@ -69,6 +69,8 @@ public:
 		return add_operation;
 	}
 
+
+
 	Vector& operator+=(const Vector& vx) {
 		assert(vx.get_dim() == dim);
 		for (int i = 0; i < dim; i++) {

@@ -12,6 +12,7 @@ int main() {
 	k += l;
 	k[1] = 2;
 	std::cout << k[1]+1;
+	std::cout << k[1];
 
 	
 	
