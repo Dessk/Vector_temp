@@ -86,6 +86,10 @@ public:
 		return sub_operation;
 	}
 
+	T& operator[](const int index) {
+		return cords[index];
+	}
+
 
 	T* carray_values() {
 		return cords.data();
